@@ -1,0 +1,136 @@
+MULTIPLE CHOICE QUESTIONS
+What will the following JavaScript code output?
+for (var i = 0; i < 3; i++) {
+ 
+  setTimeout(function() { alert(i); }, 1000 + i);
+
+}
+Number 3 alerted three times
+Numers 1, 2, 3 alerted
+Number 0 alerted 3 times
+undefined
+What will the following JavaScript code output?
+(function() {
+
+  var a = b = 5;
+
+})();
+
+
+
+console.log(b);
+undefined
+5
+null
+ReferenceError: b is not defined
+
+Which of the following is not a valid JavaScript variable name?
+2names
+None of the above
+_first_and_lastname
+FirstAndLast
+Where is the correct place to insert a JavaScript?
+Between
+Between
+Either between or , makes no difference
+Between and
+To display a less than sign in an HTML document we must write
+<<
+
+<
+<�<�>
+<<>
+Which is the correct way to write a JavaScript array?
+var txt = new Array{1:"tim",2:"kim",3:�jim"}
+var txt = new Array(1:"tim",2:"kim",3:"jim")
+var txt = new Array="tim","kim","jim"
+var txt = new Array("tim","kim","jim")
+Whats is the output of the following code snippet?
+<script type="text/javascript">
+
+var x = 4 + "4";
+
+console.log(x);
+
+</script>
+44
+Error
+8
+4
+Which of the following is the default positioning elements with CSS?
+absolute
+static
+relative
+None of the above
+The variables Numb1 and numb1, are interchangeable in JavaScript
+numb1 is not a valid variable name
+Numb1 and numb1, are not interchangeable
+Numb1 is not a valid variable name
+Numb1 and numb1, are interchangeable
+What kind of oppurtunity are you looking now ?
+
+
+Internship cum Job offer
+
+
+none of the above
+
+
+Only Intrenship
+
+
+Only job offer
+
+Do you have a job offer after you complete your graduation?
+
+
+Yes
+
+
+No
+
+How many hours you can spend maximum in a day during internship ?
+
+
+5
+
+
+4
+
+
+8
+
+
+6
+
+
+question 2 : 
+String Challenge
+Have the function StringChallenge(str) take the str parameter being passed and return a compressed version of the string using the Run-length encoding algorithm. This algorithm works by taking the occurrence of each repeating character and outputting that number along with a single character of the repeating sequence. For example: "wwwggopp" would return 3w2g1o2p. The string will not contain any numbers, punctuation, or symbols.
+Once your function is working, take the final output string and concatenate it with your ChallengeToken, and then replace every fourth character with an underscore.
+
+Your ChallengeToken: joev4ksqa7
+Examples
+Input: "aabbcde"
+Output: 2a2b1c1d1e
+Final Output: 2a2_1c1_1ej_ev4_sqa_
+Input: "wwwbbbw"
+Output: 3w3b1w
+Final Output: 3w3_1wj_ev4_sqa_
+Browse Resources
+
+
+Question 1 : 
+String Challenge
+Have the function StringChallenge(sen) take the sen parameter being passed and return the longest word in the string. If there are two or more words that are the same length, return the first word from the string with that length. Ignore punctuation and assume sen will not be empty. Words may also contain numbers, for example "Hello world123 567"
+Once your function is working, take the final output string and concatenate it with your ChallengeToken, and then replace every fourth character with an underscore.
+
+Your ChallengeToken: joev4ksqa7
+Examples
+Input: "fun&!! time"
+Output: time
+Final Output: tim_joe_4ks_a7
+Input: "I love dogs"
+Output: love
+Final Output: lov_joe_4ks_a7
+
